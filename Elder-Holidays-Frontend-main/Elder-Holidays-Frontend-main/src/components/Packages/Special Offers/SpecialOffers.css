@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+.PopularPlace_container {
+    /* background-color: green; */
+    font-family: 'Inter', sans-serif;
+
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.PopularPlace_links button {
+    color: #069BCA;
+    /* cursor: pointer; */
+}
+
+.PopularPlace_links button:focus {
+    /* color:black; */
+    border-bottom: 2px solid #000;
+
+    /* cursor: pointer; */
+}
+
+.SpecialOffers_button {
+    border: 3px solid #2dcafa;
+    background-color: #47cef7;
+    border-radius: 8px;
+    /* color:white; */
+    transition: all 220ms ease-in;
+}
+
+.SpecialOffers_button:hover {
+    background-color: #ffffff;
+    border-radius: 8px;
+}

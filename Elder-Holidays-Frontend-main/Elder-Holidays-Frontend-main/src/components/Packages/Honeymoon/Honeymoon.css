@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+.Honeymoon_container {
+    /* background-color: red; */
+    font-family: 'Inter', sans-serif;
+
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.Honeymoon_overlay {
+    background-color: rgba(0, 0, 0, 0.595);
+}

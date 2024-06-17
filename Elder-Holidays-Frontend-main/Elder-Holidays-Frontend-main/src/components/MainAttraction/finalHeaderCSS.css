@@ -1,0 +1,45 @@
+.hotels-container {
+    position: relative;
+    background-image: url('../../assets/img/mainAttr/mainAttrbg1.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh !important;
+    width: 100%;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.hotels_overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.331);
+}
+
+.card1 {
+    background-color: rgba(0, 0, 0, 0.549);
+}
+
+.card3 {
+    background-image: url('../../assets/img/mainAttr/img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card2 {
+    background-image: url('../../assets/img/mainAttr/img2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

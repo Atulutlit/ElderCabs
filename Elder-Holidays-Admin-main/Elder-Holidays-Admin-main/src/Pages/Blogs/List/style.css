@@ -1,0 +1,7 @@
+.Blogs {
+  height: 100vh;
+  width: 80vw;
+  padding: 5vh 5vw;
+  overflow-y: scroll;
+  background-color: #fafafa;
+}

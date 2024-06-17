@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+.BestChoice_container {
+    /* background-color: red; */
+    font-family: 'Inter', sans-serif;
+
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.BestChoice_overlay {
+    background-color: rgba(0, 0, 0, 0.595);
+}
+
+.BestChoice_button {
+    border: 3px solid #30c8f6;
+    border-radius: 8px;
+    transition: all 220ms ease-in;
+    background-color: #36c7f4;
+}
+
+.BestChoice_button:hover {
+    background-color: #fff;
+    border-radius: 8px;
+}

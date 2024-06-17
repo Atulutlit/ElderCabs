@@ -1,0 +1,46 @@
+.Sidebar {
+  width: 20vw;
+  height: 100vh;
+  padding: 2vh 0.5vw;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #ececec;
+}
+
+.SidebarLogo {
+  height: 15vh;
+  margin-top: 3vh;
+  object-fit: contain;
+}
+
+.SidebarNavigationIcon {
+  margin-right: 1vw;
+}
+
+.SidebarLinks {
+  margin: 3vh 0;
+}
+
+.SidebarLink {
+  border-radius: 4px;
+  padding: 1.3vh 0.8vw;
+  margin: 1vh;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+  display: flex;
+  align-items: center;
+}
+
+.SidebarLink:hover {
+  background-color: #c3f0ff;
+}
+
+.SidebarLinkSelected {
+  background-color: #6adaff;
+}
+
+.SidebarLinkSelected:hover {
+  background-color: #6adaff;
+}

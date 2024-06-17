@@ -1,0 +1,26 @@
+.customize_overlay
+{    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.763);
+}
+
+.Dropdown-control {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    color: #333;
+    cursor: default;
+    outline: none;
+    transition: all 200ms ease;
+    padding: 10px 12px;
+    width: 330px;
+}
+
+@media only screen and (max-width: 785px) {
+    .Dropdown-control{
+        width: 250px;
+    }
+  }

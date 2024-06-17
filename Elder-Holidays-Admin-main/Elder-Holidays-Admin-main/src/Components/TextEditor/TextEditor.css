@@ -1,0 +1,29 @@
+#textEditor h1 {
+    font-size: 2em;
+    display: block;
+}
+
+#textEditor h2 {
+    display: block;
+    font-size: 1.5em;
+}
+
+#textEditor h3 {
+    display: block;
+    font-size: 1.17em;
+}
+
+#textEditor h4 {
+    display: block;
+    font-size: 1em;
+}
+
+#textEditor h5 {
+    display: block;
+    font-size: .83em;
+}
+
+#textEditor h6 {
+    display: block;
+    font-size: .67em
+}

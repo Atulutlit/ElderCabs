@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.Cont {
+    margin-top: 110px;
+    margin-bottom: 110px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.first {
+    /* background-color: red; */
+    width: 60%;
+    /* line-height: 1; */
+}
+
+.first h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #20284F;
+}
+
+.first p {
+    color: #787878;
+    font-size: 1rem;
+
+}
+
+.second {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* .card img {
+    width: 80px;
+    height: 70px;
+} */
+
+.card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: green; */
+    margin: 15px;
+    height: 550px;
+    width: 400px;
+    text-align: center;
+    line-height: 2;
+    /* margin:50px 0px; */
+
+}
+
+.card h2 {
+    color: #20284F;
+    font-size: 2.3rem;
+}
+
+.card h3 {
+    font-size: 1.3rem;
+    color: #20284F;
+}
+
+.card p {
+    width: 70%;
+    line-height: 1.7;
+    color: #787878;
+    text-align:center;
+}
+
+/* ----------Responsivness---------- */
+@media screen and (max-width:768px) {
+    .card {
+        width: 100%;
+        padding: 0;
+    }
+}

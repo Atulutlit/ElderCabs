@@ -1,0 +1,19 @@
+.tourSlider .slick-slide {
+    transform: scale(.9);
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+.tourSlider .slick-slide.slick-center {
+    transform: scale(1);
+}
+
+.tourSlider .slick-arrow {
+    color: #222831;
+}
+
+.tourSlider .slick-arrow.slick-disabled {
+    color: #8a8c8f;
+}

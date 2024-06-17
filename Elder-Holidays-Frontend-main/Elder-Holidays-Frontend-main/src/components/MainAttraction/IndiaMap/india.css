@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.India_cont {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.indiaImg {
+    margin-top: 20px;
+    height: 700px;
+    /* height: 20rem; */
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+
+    .indiaImg {
+        margin-top: 20px;
+        height: 300px;
+
+        /* height: 20rem; */
+        object-fit: cover;
+    }
+}

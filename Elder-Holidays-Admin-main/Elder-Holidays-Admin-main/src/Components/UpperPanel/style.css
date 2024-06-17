@@ -1,0 +1,107 @@
+.WelcomeHeading {
+  font-size: 4vh;
+  margin: 4vh 0.2vw;
+}
+
+.PanelBar {
+  background-color: #a4e7fd;
+  padding: 1vh 2vw;
+  border-radius: 5px;
+  margin: 1vh 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.StatisticItem {
+  font-weight: 600;
+}
+
+.AddItemButton {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 1vh 1.2vw;
+  font-size: 2vh;
+  font-weight: 600;
+  margin: 1vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  transition: 0.2s ease-in-out all;
+}
+
+.AddItemButton:hover {
+  background-color: #fafafa8f;
+}
+
+/* Lower Panel Styles */
+.LowerPanel {
+  /* border: 1px solid red; */
+  margin-top: 5vh;
+  width: 70vw;
+}
+
+.LowerPanelColumns {
+  /* border: 1px solid red; */
+  background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+  display: flex;
+  margin-bottom: 4vh;
+}
+
+.LowerPanelColumn {
+  /* border: 1px solid green; */
+  padding: 1.5vh;
+  flex: 14vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.LowerPanelItem {
+  background: #fff;
+  display: flex;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.LowerPanelItemVal {
+  padding: 2vh;
+  flex: 14vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.ViewItemButton,
+.DeleteItemButton {
+  font-size: 14px;
+  padding: 1vh;
+  border: 1px solid #19a8d7;
+  background-color: #def7ff;
+  color: #43d0ff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in-out all;
+}
+
+.DeleteItemButton {
+  border: 1px solid #ffc4c4;
+  background-color: #ffcbcbd1;
+  color: #ff5c5c;
+}
+
+.ViewItemButton:hover {
+  background-color: #77ddff;
+  color: #fff;
+}
+
+.DeleteItemButton:hover {
+  background-color: #ff7171;
+  color: #fff;
+}

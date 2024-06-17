@@ -1,0 +1,59 @@
+.LoginComponent {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-color: #00232e;
+}
+
+.LoginForm {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  padding: 10vh 2.5vw;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px,
+    rgba(0, 0, 0, 0.8) -6px -2px 16px 0px;
+}
+
+.LoginLogo {
+  height: 15vh;
+  object-fit: contain;
+  margin-bottom: 5vh;
+  /* animation: tempAnimation 3s infinite; */
+}
+
+.LoginInput {
+  border: 1px solid #66daff;
+  width: 100%;
+  padding: 1.5vh;
+  margin: 1vh 0;
+  border-radius: 5px;
+}
+
+.LoginButton {
+  border: 2px solid #66daff;
+  width: 100%;
+  padding: 1.5vh;
+  margin-top: 3vh;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: 0.2s ease-in-out all;
+}
+
+.LoginButton:hover {
+  background-color: #66daff;
+}
+
+@keyframes tempAnimation {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

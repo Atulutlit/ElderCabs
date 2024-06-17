@@ -1,0 +1,16 @@
+.navbar {
+  /* How it will look before scrolled */
+  text-align: right;
+  /* background-color: #002241 !important; */
+
+  /* To give smoote change */
+  -webkit-transition: all ease-out .5s;
+  -moz-transition: all ease-out .5s;
+  -o-transition: all ease-out .5s;
+  transition: all ease-out .5s;
+}
+
+.navbar.scrolled {
+  /* How it will look when scrolled */
+  background-color: #000000a5 !important;
+}

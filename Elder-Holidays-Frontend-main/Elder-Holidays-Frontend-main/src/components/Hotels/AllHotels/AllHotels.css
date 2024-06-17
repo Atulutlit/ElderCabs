@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+.PopularPlace_container {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+
+.PopularPlace_links button {
+    color: #069BCA;
+}
+
+.PopularPlace_links button:focus {
+    border-bottom: 2px solid #000;
+
+}
+
+.PackagesYouGet_form div {
+    border-radius: 50px;
+    border: 1px solid #e0dddd;
+}
+
+.PackagesYouGet_form input {
+    border: none;
+}
+
+.PackagesYouGet_form input::placeholder {
+    /* text-align: center; */
+    font-weight: bolder;
+}
+
+
+.my_radio {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.my_radio input {
+    height: 25px;
+    width: 30px;
+    position: relative;
+    /* border: 20px solid #000; */
+    border: 3px solid #000;
+
+}
+
+.my_radio input:checked:after {
+    position: absolute;
+    /* top:10px; */
+    content: "✓";
+    background-color: #fff;
+    font-weight: bolder;
+    height: 100%;
+    width: 27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+
+}
+
+.my_radio_Themes input {
+    height: 28px;
+    width: 30px;
+}
+
+input::placeholder {
+    font-weight: bolder;
+}

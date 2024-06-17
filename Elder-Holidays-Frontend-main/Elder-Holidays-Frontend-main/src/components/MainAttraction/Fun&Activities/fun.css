@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+.Fun_Cont {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:100vw;
+}
+.grid-item:hover img{
+    z-index: 1;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.grid-item .overlay{
+    z-index: 2;
+}
+
+.grid-item {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    height: fit-content;
+    margin: 15px;
+    overflow:hidden;
+    border-radius: 18px;
+
+}
+
+.Fun_part {
+    width: 90%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.Fun_part h2 {
+    font-size: 3rem;
+    color: #20284F;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.249);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .grid-container {
+        flex-wrap: wrap;
+    }
+
+}

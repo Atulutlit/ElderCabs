@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+.banner-container {
+
+    /* background-image: url('../../assets/img/mainAttr/mainAttrbg1.jpg'); */
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner-container::before {
+    position: absolute;
+    content: "";
+    background: #000000;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.allPackages_overlay {
+    background-color: rgba(0, 0, 0, 0.215);
+}

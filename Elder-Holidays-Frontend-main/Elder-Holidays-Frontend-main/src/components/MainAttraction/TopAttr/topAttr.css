@@ -1,0 +1,127 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+  .TopAttr_Cont {
+      padding:40px 50px;
+      height: 100%;
+      width: 100%;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+  }
+
+  .TopAttr_Cards {
+      display: flex;
+      justify-content: space-between;
+      width:100%;
+      align-items: center;
+      /* flex-direction:column; */
+      flex-wrap: wrap;
+      /* gap:7vw; */
+  }
+  .TopAttr_Card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction:column;
+      gap:5px;
+  }
+  .TopAttr_overlay {
+    position: absolute;
+      background-color: rgba(0, 0, 0, 0.514);
+      border-radius: 18px;
+      height: 550px;
+      width: 380px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 2rem;
+      opacity: 0;
+      transition: all 200ms ease-in;
+  }
+
+  .TopAttr_overlay:hover {
+      opacity: 1;
+  }
+
+  /* .TopAttr_Card {
+      margin: 10px 20px;
+  } */
+
+  .TopAttr_Card_img_cont {
+      height: 550px;
+      width: 380px;
+  }
+
+  .TopAttr_Card_img_cont img {
+      object-fit: cover;
+      border-radius: 8px;
+
+  }
+
+  .TopAttr_h3 {
+      font-size: 1.6rem;
+      font-weight: bolder;
+      width: 100%;
+  }
+
+  .TopAttr_overview_part {
+      text-align: left;
+      margin-bottom: 20px;
+  }
+
+  .TopAttr_overview_part p {
+      font-size: 1.4rem;
+      color: #20284F;
+
+  }
+
+  .TopAttr_overview_part h2 {
+      font-size: 2.6rem;
+      color: #20284F;
+      font-weight: bolder;
+
+  }
+
+  @media screen and (max-width: 768px) {
+      .TopAttr_Card_img_cont {
+          height: 400px;
+          width: 300px;
+          object-fit: cover;
+          /* margin: 10px 20px;/ */
+      }
+        .TopAttr_Card_img_cont img {
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .TopAttr_Cont {
+            padding: 10px 20px;
+        }
+        .TopAttr_Cards {
+            display: flex;
+            justify-content: flex-start;
+            width:100%;
+            align-items: center;
+            flex-direction:column;
+            gap:20px;
+        }
+        .TopAttr_Card {
+            display: flex;
+            justify-content: flex-start;
+            align-items:flex-start;
+            flex-direction:column;
+            gap:0;
+        }
+        .TopAttr_h3{
+            font-size: 1.4rem;
+            font-weight: bolder;
+            width: 100%;
+            margin:0;
+        }
+        .TopAttr_overlay {
+            height: 400px;
+            width: 300px;
+        }
+  }
